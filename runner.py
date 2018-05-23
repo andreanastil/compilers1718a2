@@ -122,7 +122,7 @@ class MyParser:
 			if tt is None:
 					return t
 			if tt[0] == 'or':
-					print (t or tt[1])
+					#print (t or tt[1])
 					return t or tt[1]
 			# if tt[0] == '-':
 			# 		return t-tt[1]			
